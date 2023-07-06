@@ -1,0 +1,28 @@
+{
+  "name": "threads-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "rm -rf /tmp/nitro && nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "lint:prettier": "prettier --check .",
+    "lint": "npm run lint:prettier",
+    "lintfix": "prettier --write --list-different ."
+  },
+  "resolutions": {
+    "consola": "^3.0.0"
+  },
+  "devDependencies": {
+    "axios": "^1.4.0",
+    "bulma": "^0.9.4",
+    "graphql": "^16.7.1",
+    "graphql-request": "^6.1.0",
+    "node-fetch": "^3.3.1",
+    "nuxt": "^3.6.1",
+    "nuxt-proxy": "^0.4.1",
+    "prettier": "2.8.1"
+  }
+}
